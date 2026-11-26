@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="230" viewBox="0 0 1200 230" role="img" aria-label="오늘도 둥둥 떠서 꿈과 희망을 커밋합니다">
+  <style>
+    .w { animation: slide linear infinite; }
+    .w1 { animation-duration: 12s; } .w2 { animation-duration: 8s; animation-direction: reverse; } .w3 { animation-duration: 6s; }
+    @keyframes slide { from { transform: translateX(0); } to { transform: translateX(-300px); } }
+    .bub { animation: rise 5s linear infinite; opacity: 0; }
+    @keyframes rise { 0% { transform: translateY(0); opacity: 0; } 20% { opacity: .9; } 100% { transform: translateY(-120px); opacity: 0; } }
+    .msg { font: 800 30px 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR','Segoe UI',sans-serif; }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <g class="w w1"><path d="M0 40 q75.0 -16 150.0 0 t150.0 0 q75.0 -16 150.0 0 t150.0 0 q75.0 -16 150.0 0 t150.0 0 q75.0 -16 150.0 0 t150.0 0 q75.0 -16 150.0 0 t150.0 0 V440 H0 Z" fill="#29B6F6" opacity="0.55"/></g>
+  <g class="w w2"><path d="M0 62 q75.0 -20 150.0 0 t150.0 0 q75.0 -20 150.0 0 t150.0 0 q75.0 -20 150.0 0 t150.0 0 q75.0 -20 150.0 0 t150.0 0 q75.0 -20 150.0 0 t150.0 0 V462 H0 Z" fill="#0288D1" opacity="0.8"/></g>
+  <g class="w w3"><path d="M0 84 q75.0 -14 150.0 0 t150.0 0 q75.0 -14 150.0 0 t150.0 0 q75.0 -14 150.0 0 t150.0 0 q75.0 -14 150.0 0 t150.0 0 q75.0 -14 150.0 0 t150.0 0 V484 H0 Z" fill="#01579B"/></g>
+  <circle class="bub" cx="140" cy="225" r="5" fill="none" stroke="#FFFFFF" stroke-width="1.5" style="animation-delay:0s"/><circle class="bub" cx="260" cy="225" r="3" fill="none" stroke="#FFFFFF" stroke-width="1.5" style="animation-delay:1.2s"/><circle class="bub" cx="420" cy="225" r="4" fill="none" stroke="#FFFFFF" stroke-width="1.5" style="animation-delay:2.4s"/><circle class="bub" cx="780" cy="225" r="5" fill="none" stroke="#FFFFFF" stroke-width="1.5" style="animation-delay:0.6s"/><circle class="bub" cx="930" cy="225" r="3" fill="none" stroke="#FFFFFF" stroke-width="1.5" style="animation-delay:1.8s"/><circle class="bub" cx="1060" cy="225" r="4" fill="none" stroke="#FFFFFF" stroke-width="1.5" style="animation-delay:3s"/>
+  <text class="msg" x="600" y="160" text-anchor="middle" fill="#FFFFFF">🦦 오늘도 둥둥 떠서 꿈과 희망을 커밋합니다 🌊</text>
+</svg>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-label="kimeunji - 꿈과 희망이 둥둥 떠다니는 git repository">
+  <style>
+    .w { animation: slide linear infinite; }
+    .w1 { animation-duration: 14s; } .w2 { animation-duration: 10s; animation-direction: reverse; }
+    .w3 { animation-duration: 8s; } .w4 { animation-duration: 6s; animation-direction: reverse; }
+    @keyframes slide { from { transform: translateX(0); } to { transform: translateX(-300px); } }
+    .float { animation: bob 3.2s ease-in-out infinite; transform-origin: 600px 300px; }
+    @keyframes bob { 0%,100% { transform: translate(0,0) rotate(-2deg); } 50% { transform: translate(0,-10px) rotate(2deg); } }
+    .shell { animation: knock .9s ease-in-out infinite; }
+    @keyframes knock { 0%,60%,100% { transform: translateY(0); } 30% { transform: translateY(-5px); } }
+    .tw { animation: tw 3s ease-in-out infinite; }
+    @keyframes tw { 0%,100% { opacity: .25; } 50% { opacity: 1; } }
+    .bub { animation: rise 6s linear infinite; }
+    @keyframes rise { 0% { transform: translateY(0); opacity: 0; } 15% { opacity: .9; } 100% { transform: translateY(-150px); opacity: 0; } }
+    .title { font: 900 96px 'Trebuchet MS','Segoe UI','Apple SD Gothic Neo','Malgun Gothic',sans-serif; letter-spacing: 4px; }
+    .sub { font: 700 26px 'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR','Segoe UI',sans-serif; }
+    .reveal { animation: reveal 3.2s steps(28) .6s both; }
+    @keyframes reveal { from { width: 0; } to { width: 720px; } }
+    .rise { animation: up 1.2s cubic-bezier(.2,.8,.2,1) both; }
+    @keyframes up { from { transform: translateY(24px); opacity: 0; } to { transform: none; opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } .reveal { width: 720px; } }
+  </style>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#B3E5FC"/><stop offset="1" stop-color="#E1F5FE"/>
+    </linearGradient>
+    <linearGradient id="tg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#FFE0B2"/>
+    </linearGradient>
+    <clipPath id="typing"><rect class="reveal" x="240" y="150" width="720" height="50"/></clipPath>
+  </defs>
+  <rect width="1200" height="440" fill="url(#sky)"/>
+  <circle class="tw" cx="683" cy="54" r="2" fill="#FFFFFF" style="animation-delay:1.95s"/><circle class="tw" cx="168" cy="153" r="1.4" fill="#FFFFFF" style="animation-delay:1.10s"/><circle class="tw" cx="138" cy="145" r="1.4" fill="#FFFFFF" style="animation-delay:0.11s"/><circle class="tw" cx="908" cy="123" r="1.4" fill="#FFFFFF" style="animation-delay:0.72s"/><circle class="tw" cx="1148" cy="124" r="1.4" fill="#FFFFFF" style="animation-delay:2.48s"/><circle class="tw" cx="273" cy="73" r="2.6" fill="#FFFFFF" style="animation-delay:1.88s"/><circle class="tw" cx="146" cy="163" r="2.6" fill="#FFFFFF" style="animation-delay:1.19s"/><circle class="tw" cx="472" cy="27" r="2.6" fill="#FFFFFF" style="animation-delay:2.58s"/><circle class="tw" cx="613" cy="123" r="1.4" fill="#FFFFFF" style="animation-delay:1.62s"/><circle class="tw" cx="651" cy="159" r="2.6" fill="#FFFFFF" style="animation-delay:0.54s"/><circle class="tw" cx="404" cy="111" r="1.4" fill="#FFFFFF" style="animation-delay:1.64s"/><circle class="tw" cx="148" cy="160" r="1.4" fill="#FFFFFF" style="animation-delay:1.86s"/><circle class="tw" cx="1036" cy="152" r="2" fill="#FFFFFF" style="animation-delay:2.33s"/><circle class="tw" cx="973" cy="165" r="2" fill="#FFFFFF" style="animation-delay:1.08s"/><circle class="tw" cx="528" cy="62" r="2.6" fill="#FFFFFF" style="animation-delay:2.34s"/><circle class="tw" cx="187" cy="163" r="2" fill="#FFFFFF" style="animation-delay:1.58s"/><circle class="tw" cx="723" cy="130" r="2" fill="#FFFFFF" style="animation-delay:1.83s"/><circle class="tw" cx="169" cy="46" r="2.6" fill="#FFFFFF" style="animation-delay:1.25s"/><circle class="tw" cx="720" cy="54" r="2" fill="#FFFFFF" style="animation-delay:1.27s"/><circle class="tw" cx="178" cy="158" r="2.6" fill="#FFFFFF" style="animation-delay:2.37s"/><circle class="tw" cx="662" cy="103" r="2.6" fill="#FFFFFF" style="animation-delay:1.05s"/><circle class="tw" cx="1037" cy="164" r="2" fill="#FFFFFF" style="animation-delay:0.21s"/><circle class="tw" cx="211" cy="85" r="2" fill="#FFFFFF" style="animation-delay:2.09s"/><circle class="tw" cx="153" cy="31" r="2.6" fill="#FFFFFF" style="animation-delay:2.10s"/><circle class="tw" cx="932" cy="88" r="2.6" fill="#FFFFFF" style="animation-delay:1.16s"/><circle class="tw" cx="730" cy="21" r="2" fill="#FFFFFF" style="animation-delay:1.07s"/>
+  <circle cx="1040" cy="92" r="70" fill="#FFF8E1" opacity="0.5"/><circle cx="1040" cy="92" r="46" fill="#FFE082"/>
+  <path class="tw" style="animation-delay:0.0s" transform="translate(210 70) scale(1.0)" d="M0 -12 L3 -3 L12 0 L3 3 L0 12 L-3 3 L-12 0 L-3 -3 Z" fill="#FFFFFF"/><path class="tw" style="animation-delay:0.6s" transform="translate(980 96) scale(1.2)" d="M0 -12 L3 -3 L12 0 L3 3 L0 12 L-3 3 L-12 0 L-3 -3 Z" fill="#FFFFFF"/><path class="tw" style="animation-delay:1.2s" transform="translate(1090 44) scale(0.8)" d="M0 -12 L3 -3 L12 0 L3 3 L0 12 L-3 3 L-12 0 L-3 -3 Z" fill="#FFFFFF"/><path class="tw" style="animation-delay:1.8s" transform="translate(120 150) scale(0.7)" d="M0 -12 L3 -3 L12 0 L3 3 L0 12 L-3 3 L-12 0 L-3 -3 Z" fill="#FFFFFF"/><path class="tw" style="animation-delay:2.4s" transform="translate(860 40) scale(0.9)" d="M0 -12 L3 -3 L12 0 L3 3 L0 12 L-3 3 L-12 0 L-3 -3 Z" fill="#FFFFFF"/>
+  <g class="rise">
+    <text class="title" x="600" y="128" text-anchor="middle" fill="url(#tg)" stroke="#5D4037" stroke-width="10" paint-order="stroke" stroke-linejoin="round">kimeunji</text>
+  </g>
+  <g clip-path="url(#typing)">
+    <rect x="248" y="152" width="704" height="44" rx="22" fill="#FFFFFF" opacity="0.75"/>
+    <text class="sub" x="600" y="183" text-anchor="middle" fill="#4E342E">꿈과 희망이 둥둥 떠다니는 git repository</text>
+  </g>
+  <g class="w w1"><path d="M0 262 q75.0 -18 150.0 0 t150.0 0 q75.0 -18 150.0 0 t150.0 0 q75.0 -18 150.0 0 t150.0 0 q75.0 -18 150.0 0 t150.0 0 q75.0 -18 150.0 0 t150.0 0 V662 H0 Z" fill="#81D4FA" opacity="0.65"/></g>
+  <g class="w w2"><path d="M0 290 q75.0 -22 150.0 0 t150.0 0 q75.0 -22 150.0 0 t150.0 0 q75.0 -22 150.0 0 t150.0 0 q75.0 -22 150.0 0 t150.0 0 q75.0 -22 150.0 0 t150.0 0 V690 H0 Z" fill="#29B6F6" opacity="0.8"/></g>
+  <g class="w w3"><path d="M0 318 q75.0 -16 150.0 0 t150.0 0 q75.0 -16 150.0 0 t150.0 0 q75.0 -16 150.0 0 t150.0 0 q75.0 -16 150.0 0 t150.0 0 q75.0 -16 150.0 0 t150.0 0 V718 H0 Z" fill="#0288D1" opacity="0.92"/></g>
+  <circle class="bub" cx="300" cy="430" r="6" fill="none" stroke="#FFFFFF" stroke-width="1.6" opacity="0.8" style="animation-delay:0s"/><circle class="bub" cx="330" cy="430" r="4" fill="none" stroke="#FFFFFF" stroke-width="1.6" opacity="0.8" style="animation-delay:1.4s"/><circle class="bub" cx="690" cy="430" r="5" fill="none" stroke="#FFFFFF" stroke-width="1.6" opacity="0.8" style="animation-delay:0.7s"/><circle class="bub" cx="720" cy="430" r="3" fill="none" stroke="#FFFFFF" stroke-width="1.6" opacity="0.8" style="animation-delay:2.1s"/><circle class="bub" cx="520" cy="430" r="4" fill="none" stroke="#FFFFFF" stroke-width="1.6" opacity="0.8" style="animation-delay:2.8s"/><circle class="bub" cx="900" cy="430" r="6" fill="none" stroke="#FFFFFF" stroke-width="1.6" opacity="0.8" style="animation-delay:1.1s"/><circle class="bub" cx="160" cy="430" r="3" fill="none" stroke="#FFFFFF" stroke-width="1.6" opacity="0.8" style="animation-delay:3.3s"/>
+  <g class="w w4"><path d="M0 370 q75.0 -14 150.0 0 t150.0 0 q75.0 -14 150.0 0 t150.0 0 q75.0 -14 150.0 0 t150.0 0 q75.0 -14 150.0 0 t150.0 0 q75.0 -14 150.0 0 t150.0 0 V770 H0 Z" fill="#01579B"/></g>
+</svg>
