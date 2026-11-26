@@ -11,11 +11,7 @@
 ![Dream](https://img.shields.io/badge/Dream-100%25-ff69b4)
 ![Hope](https://img.shields.io/badge/Hope-∞-blueviolet)
 
-<img src="rainbow_flower.png" width="420" alt="터틀로 그린 무지개 꽃">
 
-*Python Turtle로 그린 무지개 꽃 🌸*
-
-</div>
 
 ---
 
